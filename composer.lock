@@ -4,19 +4,19 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3db200912c0ffb3c0a472054d0ef4f57",
+    "content-hash": "70eca1b525bd170030283b09bfffd39f",
     "packages": [
         {
-            "name": "fzaninotto/faker",
+            "name": "nguyengiahao/myfaker",
             "version": "v1.8.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fzaninotto/Faker.git",
+                "url": "https://github.com/AIV-T-STARK/myFaker.git",
                 "reference": "f72816b43e74063c8b10357394b6bba8cb1c10de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/f72816b43e74063c8b10357394b6bba8cb1c10de",
+                "url": "https://api.github.com/repos/AIV-T-STARK/myFaker/zipball/f72816b43e74063c8b10357394b6bba8cb1c10de",
                 "reference": "f72816b43e74063c8b10357394b6bba8cb1c10de",
                 "shasum": ""
             },

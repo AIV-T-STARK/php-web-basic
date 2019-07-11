@@ -1,7 +1,7 @@
 <?php 
   require 'vendor/autoload.php';
 
-  $faker = Faker\Factory::create();
+  $faker = Faker\Factory::create('vi_VN');
  ?>
 
 <!DOCTYPE html>
@@ -112,7 +112,7 @@
                           <img src="<?php echo $faker->imageUrl(200,200); ?>" alt="product1" class="img-responsive">
                         </div>
                         <div class="card-desc">
-                          <p> <?php echo $faker->text(30); ?></p>
+                          <p> <?php echo $faker->realText(35, 1); ?></p>
                           <p><span class="price-die">$<?php echo $faker->randomFloat(2, 0, 999); ?></span><span class="price">$<?php echo $faker->randomFloat(2, 0, 999); ?></span></p> 
                           <p>
                             <i class="fas fa-star"></i>
@@ -147,7 +147,7 @@
                           <img src="<?php echo $faker->imageUrl(200,200); ?>" alt="product1" class="img-responsive">
                         </div>
                         <div class="card-desc">
-                          <p> <?php echo $faker->text(30); ?></p>
+                          <p> <?php echo $faker->realText(35, 1); ?></p>
                           <p><span class="price-die">$<?php echo $faker->numberBetween(100, 999); ?></span><span class="price">$<?php echo $faker->numberBetween(100, 999); ?></span></p> 
                           <p>
                             <i class="fas fa-star"></i>
@@ -220,7 +220,7 @@
                                   <img src="' . $faker->imageUrl(200,200) .'" alt="product1" class="img-responsive">
                                 </div>
                                 <div class="card-desc">
-                                  <p>' . $faker->text(30) . '</p>
+                                  <p>' . $faker->realText(35, 1) . '</p>
                                 <p><span class="price-die">$' . $faker->numberBetween(100, 999). '</span><span class="price">$' . $faker->numberBetween(100, 999) . '</span></p>  
                                   <p>
                                     <i class="fas fa-star"></i>
@@ -255,7 +255,7 @@
                         <h2>Fashion sale</h2>
 
                         <a href="#">BUY NOW</a>
-                        <p class="text-gray-3"><?php echo $faker->text(20); ?></p>
+                        <p class="text-gray-3"><?php echo $faker->realText(35, 1); ?></p>
                       </div>
                     </div>
                   </div>
@@ -273,7 +273,7 @@
                         <h2>Fashion sale</h2>
 
                         <a href="#">BUY NOW</a>
-                        <p class="text-gray-3"><?php echo $faker->text(20); ?></p>
+                        <p class="text-gray-3"><?php echo $faker->realText(35, 1); ?></p>
                       </div>
 
                     </div>
@@ -310,7 +310,7 @@
                                   <img src="' . $faker->imageUrl(200,200) .'" alt="product1" class="img-responsive">
                                 </div>
                                 <div class="card-desc">
-                                  <p>' . $faker->text(30) . '</p>
+                                  <p>' . $faker->realText(35, 1) . '</p>
                                 <p><span class="price-die">$' . $faker->numberBetween(100, 999). '</span><span class="price">$' . $faker->numberBetween(100, 999) . '</span></p>  
                                   <p>
                                     <i class="fas fa-star"></i>
@@ -376,7 +376,7 @@
                                     </div>
                                     <div class="col-7">
                                       <div class="card-desc">
-                                        <p>' . $faker->text(30) . '</p>
+                                        <p>' . $faker->realText(35, 1) . '</p>
                               <p><span class="price-die">$' . $faker->numberBetween(100, 999) . '</span><span class="price">$' . $faker->numberBetween(100, 999) . '</span></p> 
                                         <p>
                                           <i class="fas fa-star"></i>

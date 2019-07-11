@@ -65,7 +65,7 @@
             <br>
             <ul>
               <li><i class="fas fa-map-marker-alt"></i><?php echo $faker->address; ?></li>
-              <li><i class="fas fa-phone"></i><?php echo $faker->tollFreePhoneNumber; ?></li>
+              <li><i class="fas fa-phone"></i><?php echo $faker->phoneNumber; ?></li>
               <li><i class="fas fa-envelope"></i><?php echo $faker->email; ?></li>
             </ul>
           </div>
