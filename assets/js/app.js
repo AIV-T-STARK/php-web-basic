@@ -1,10 +1,10 @@
 window.onload = function () {
 
-  slick('#slide-product-1');
-  slick('#slide-product-2');
-  slick('#slide-product-3', false);
-  slick('#slide-product-4', false);
-  slick('#slide-product-5', false);
+  // slick('#slide-product-1');
+  // slick('#slide-product-2');
+  // slick('#slide-product-3', false);
+  // slick('#slide-product-4', false);
+  // slick('#slide-product-5', false);
 
 
   

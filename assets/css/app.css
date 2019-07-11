@@ -1138,14 +1138,14 @@ ul {
   padding-left: 10px;
   padding-right: 10px;
 }
-.card-products .product {
+/*.card-products .product {
   display: none;
 }
 .card-products .product.active {
   display: block;
   -webkit-animation: fade-in 1s;
           animation: fade-in 1s;
-}
+}*/
 .card-products .product a {
   color: #3d3d3d;
 }
@@ -1166,7 +1166,7 @@ ul {
 }
 .card-products .product .card-desc p:first-child {
   -webkit-line-clamp: 1;
-  /* -webkit-box-orient: vertical; */
+   -webkit-box-orient: vertical; 
   display: -webkit-box;
   text-overflow: ellipsis;
   overflow: hidden;

@@ -1,0 +1,12 @@
+{
+    "name": "giahao9899/php-web-basic",
+    "authors": [
+        {
+            "name": "Nguyen Gia Hao",
+            "email": "giahao9899@gmail.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/faker": "^1.8"
+    }
+}
