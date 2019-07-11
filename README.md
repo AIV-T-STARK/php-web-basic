@@ -7,7 +7,7 @@
 - Thực hiện bởi: [Nguyễn Gia Hào](https://github.com/AIV-T-STARK)
 
 ### Update:
-- sử dụng package [Faker](https://github.com/fzaninotto/Faker) để gen dữ liệu.
+- sử dụng package [Faker](https://github.com/AIV-T-STARK/myFaker) để gen dữ liệu.
 
 ![](./image/3.png)
 
